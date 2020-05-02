@@ -5,7 +5,6 @@ plugins {
     id(PluginObject.KOTLIN_ANDROID)
     id(PluginObject.KAPT)
     id(PluginObject.EXTENTION)
-    id(PluginObject.OBJECTBOX)
 }
 
 android {

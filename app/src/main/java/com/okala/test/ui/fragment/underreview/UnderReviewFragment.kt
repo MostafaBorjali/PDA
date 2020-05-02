@@ -11,6 +11,7 @@ import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import com.android.networkapi.data.model.getbarcodlist.QRData
 import com.google.zxing.Result
+import com.okala.test.model.DataScanned
 import com.okala.test.utils.extention.ALertDialogOkala
 import me.dm7.barcodescanner.zxing.ZXingScannerView
 
@@ -34,7 +35,7 @@ class UnderReviewFragment : Fragment(), ZXingScannerView.ResultHandler {
     override fun onResume() {
         super.onResume()
         permissions()
-        DataSCaned.totalItem.clear()
+        DataScanned.totalItem.clear()
         mScannerView!!.setResultHandler(this)
         mScannerView!!.startCamera()
     }
@@ -43,7 +44,7 @@ class UnderReviewFragment : Fragment(), ZXingScannerView.ResultHandler {
         val name = rawResult.text.toString().split("-")
         val lastname = name[1].split("@")
         activity?.ALertDialogOkala(dialogContent1 = rawResult.text) {
-            DataSCaned.totalItem.add(
+            DataScanned.totalItem.add(
                 QRData(
                     email = rawResult.text,
                     avatar = "https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg",

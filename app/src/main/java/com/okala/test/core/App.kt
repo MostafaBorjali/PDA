@@ -10,7 +10,7 @@ import com.facebook.stetho.Stetho
 class App : MultiDexApplication() {
     override fun onCreate() {
         super.onCreate()
-        ObjectBox.build(this)
+
         Server.setServerType(UrlType.Public)
         if (BuildConfig.DEBUG){
             Stetho.initializeWithDefaults(this)

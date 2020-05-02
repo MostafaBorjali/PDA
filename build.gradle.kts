@@ -9,8 +9,7 @@ buildscript {
     dependencies {
         classpath(GradleDependency.GRADLE_BUILD_TOOLS)
         classpath(GradleDependency.KOTLIN_GRADLE)
-        classpath(GradleDependency.OBJECT_BOX_GRADEL)
-        // classpath(GradleDependency.KTLINT_GRADLE_PATH)
+
     }
 }
 allprojects {

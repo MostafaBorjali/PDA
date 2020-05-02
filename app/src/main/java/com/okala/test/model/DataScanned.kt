@@ -1,9 +1,9 @@
-package com.okala.test.ui.fragment.underreview
+package com.okala.test.model
 
 import com.android.networkapi.data.model.getbarcodlist.QRData
 import java.util.ArrayList
 
-object DataSCaned {
+object DataScanned {
      var totalItem = ArrayList<QRData>()
 
 }

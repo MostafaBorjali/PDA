@@ -6,7 +6,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.android.networkapi.data.model.getbarcodlist.QRData
 import com.okala.test.R
 import com.okala.test.databinding.FragmentPendingBinding
-import com.okala.test.ui.fragment.underreview.DataSCaned
+import com.okala.test.model.DataScanned
 import com.okala.test.utils.base.BaseFragment
 import com.okala.test.utils.extention.ALertDialogOkala
 import java.util.*
@@ -67,8 +67,8 @@ class PendingFragment : BaseFragment<FragmentPendingBinding>() {
 
     override fun onResume() {
         super.onResume()
-        if (!DataSCaned.totalItem.isNullOrEmpty()) {
-            totalItem.addAll(DataSCaned.totalItem)
+        if (!DataScanned.totalItem.isNullOrEmpty()) {
+            totalItem.addAll(DataScanned.totalItem)
             adapter!!.notifyDataSetChanged()
             adapter!!.notifyItemChanged(totalItem.size - 1)
 

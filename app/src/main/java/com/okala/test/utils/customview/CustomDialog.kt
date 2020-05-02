@@ -15,7 +15,6 @@ import androidx.appcompat.widget.AppCompatButton
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.fragment.app.DialogFragment
 import com.okala.test.R
-import com.okala.test.model.SingleToneData
 
 class CustomDialog : DialogFragment() {
     private var dialogTitle: TextView? = null
@@ -156,9 +155,5 @@ class CustomDialog : DialogFragment() {
     }
 
 
-    fun actionIsOK(holder: Int) {
-        SingleToneData.quantity = holder
-        actionOk()
-        dismiss()
-    }
+
 }
