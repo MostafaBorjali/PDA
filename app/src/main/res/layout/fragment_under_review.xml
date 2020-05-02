@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <!--<variable name="viewModel" type="com.mobile.maniban.main.home.MainViewModel"/>-->
+    </data>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/topLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:keepScreenOn="true"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:visibility="visible">
+
+            <com.okala.test.utils.customview.scanner.camera.CameraSourcePreview
+                android:id="@+id/preview"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:visibility="visible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHeight_percent="0.70"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <com.okala.test.utils.customview.scanner.camera.GraphicOverlay
+                    android:id="@+id/graphicOverlay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </com.okala.test.utils.customview.scanner.camera.CameraSourcePreview>
+
+
+            <com.okala.test.utils.customview.scanner.ScannerOverlay
+                android:id="@+id/scan_overlay"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/gradiant_transparent"
+                android:visibility="visible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.33"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:line_color="#7323DC"
+                app:line_speed="0"
+                app:line_width="0"
+                app:square_height="700"
+                app:square_width="250" >
+
+            </com.okala.test.utils.customview.scanner.ScannerOverlay>
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:visibility="visible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHeight_percent="0.70"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/flashlight"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center|bottom"
+                    android:layout_marginBottom="@dimen/_60sdp"
+                    android:background="@drawable/circle_white"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    app:layout_constraintBottom_toTopOf="@+id/curveLayout2"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.47"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:srcCompat="@drawable/ic_torch"
+                    tools:ignore="VectorDrawableCompat" />
+
+
+                <FrameLayout
+                    android:id="@+id/cameraPermition"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#000">
+
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/cameraPermitionBtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="@string/camera_permition"
+                        android:textSize="@dimen/_14sdp"
+                        app:backgroundTint="@color/colorAccent" />
+
+
+                </FrameLayout>
+
+
+            </FrameLayout>
+
+            <com.okala.test.utils.customview.curve.CurveLayout
+                android:id="@+id/curveLayout2"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_220sdp"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="bottom"
+                android:visibility="visible"
+                app:arc_cropDirection="cropInside"
+                app:arc_height="@dimen/_30sdp"
+                app:arc_position="top"
+                app:layout_constraintBottom_toBottomOf="@+id/scan_overlay"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/backGround"
+                        android:visibility="visible">
+
+                        <ImageView
+                            android:id="@+id/imageView7"
+                            android:layout_width="0dp"
+                            android:layout_height="@dimen/_220sdp"
+                            android:scaleType="centerCrop"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="@+id/guideline10"
+                            app:srcCompat="@drawable/main_background"
+                            tools:visibility="visible" />
+
+                        <TextView
+                            android:id="@+id/txtMessageEditTextSearchBarcode"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="8dp"
+                            android:fontFamily="@font/iransans"
+                            android:text="@string/searchBarcodeMessage"
+                            android:textColor="@color/textcolor"
+                            android:textSize="@dimen/_10sdp"
+                            app:layout_constraintEnd_toEndOf="@+id/constraintLayout"
+                            app:layout_constraintTop_toTopOf="@+id/guideline" />
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/constraintLayout"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_35sdp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginEnd="@dimen/_35sdp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/txtMessageEditTextSearchBarcode">
+
+                            <EditText
+                                android:id="@+id/edBarcode"
+                                android:layout_width="0dp"
+                                android:layout_height="@dimen/_40sdp"
+                                android:background="@drawable/back_edittext_search"
+                                android:gravity="center"
+                                android:inputType="number"
+                                android:maxLength="20"
+                                android:maxLines="1"
+                                android:textSize="@dimen/_14sdp"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toEndOf="@+id/barcodeSearch"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <ImageButton
+                                android:id="@+id/barcodeSearch"
+                                android:layout_width="@dimen/_40sdp"
+                                android:layout_height="@dimen/_40sdp"
+                                android:background="@drawable/background_search"
+                                android:scaleType="centerInside"
+                                android:src="@drawable/ic_search"
+                                app:layout_constraintBottom_toBottomOf="@+id/edBarcode"
+                                app:layout_constraintEnd_toStartOf="@+id/edBarcode"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="@+id/edBarcode" />
+
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_50sdp"
+                            android:fontFamily="@font/iransansthin"
+                            android:text="@string/camera_txt"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="@dimen/_10sdp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.5"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <androidx.constraintlayout.widget.Guideline
+                            android:id="@+id/guideline"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            app:layout_constraintGuide_percent="0.44" />
+
+                        <androidx.constraintlayout.widget.Guideline
+                            android:id="@+id/guideline10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            app:layout_constraintGuide_percent="0.0" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </ScrollView>
+
+
+            </com.okala.test.utils.customview.curve.CurveLayout>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <include
+            android:id="@+id/scaneToolBar"
+            layout="@layout/toolbar"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">netWorkApi</string>
+
+    <!--// common error response api-->
+    <string name="listCountIsZERO" >در حال حاضر داده‌ای جهت مشاهده وجود ندارد</string>
+    <string name="serverError">خطایی از سمت سرور رخ داده است. لطفا مجدد تلاش نمایید.</string>
+    <string name="successNot3">خطایی از سمت سرور رخ داده است. لطفا مجدد تلاش نمایید.</string>
+    <string name="responceNot200">مشکل در دریافت اطلاعات</string>
+    <string name="loginNeeded"> مهلت اتصال شما تمام شده</string>
+    <string name="internetError">اتصال اینترنت خود را بررسی کنید</string>
+    <string name="publicError">خطا</string>
+    <string name="access">شما دسترسی ندارید</string>
+    <string name="listCountIsZEROFinancial" > در حال حاضر تراکنشی جهت مشاهده وجود ندارد </string>
+    <string name="userNotExist">کاربری با این شماره تلفن یافت نشد.لطفا ثبت نام کنید</string>
+    <string name="userBadRegister">ثبت نام شما کامل انجام نشده است. مجدد ثبت نام نمایید</string>
+    <string name="userpassIncorrect">نام کاربری و یا کلمه عبور نامعتبر می باشد، لطفا دوباره تلاش نمایید</string>
+    <string name="invalidActivationCode">کد وارد شده اشتباه است</string>
+    <string name="passowdNotChanged">رمزعبور فعلی اشتباه است</string>
+    <string name="userNotFound">کاربر یافت نشد</string>
+    <string name="changePasswordProblem">تغییر رمز عبور با مشکل مواجه شد</string>
+    <string name="checkNumberRegistereErrorStatus8">شماره تلفن در وضعیت پیش ثبت نام وجود دارد</string>
+    <string name="checkNumberRegistereErrorStatus1">خطای سمت سرور نا مشخص</string>
+    <string name="checkNumberRegistereErrorStatus7">با این شماره قبلا ثبت نام کرده اید</string>
+    <string name="checkNumberRegistereErrorStatus4">نا موفق در پیش ثبت نام</string>
+    <string name="checkNumberRegistereErrorStatus16">این فرایند پیاده سازی نشده است</string>
+    <string name="checkNumberRegistereErrorStatus21">قبلا کابر فعال نهایی شده است</string>
+    <string name="postConfirmCodeErrorStatus1">خطای سمت سرور نا مشخص</string>
+    <string name="postConfirmCodeErrorStatus6">کاربر وجود ندارد یا اصلا ثبت نام نکرده یا زمان کد تایید منقضی شده است</string>
+    <string name="postConfirmCodeErrorStatus7">با این شماره قبلا ثبت نام کرده اید</string>
+    <string name="postConfirmCodeErrorStatus4">نا موفق در کد تایید و دوباره باید در خواست کد نماید</string>
+    <string name="postConfirmCodeErrorStatus16">این فرایند پیاده سازی نشده است</string>
+    <string name="postConfirmCodeErrorStatus18">دیتا ارسال نشده</string>
+    <string name="postConfirmCodeErrorStatus20">کد ۶ رقمی وارد شده صحیح نیست</string>
+    <string name="postConfirmCodeErrorStatus21">قبلا کار فعال نهایی شده است</string>
+    <string name="finalRegisterErrorStatus7">ایمیل قبلا توسط کاربر دیگری ثبت شده است </string>
+    <string name="finalRegisterErrorStatus6">لطفا مجدد برای ثبت نام اقدام نمایید</string>
+    <string name="finalRegisterErrorStatus16">این فرایند پیاده سازی نشده است</string>
+    <string name="finalRegisterErrorStatus18">دیتا ارسال نشده</string>
+    <string name="finalRegisterErrorStatus20">کد هم خوانی ندارد</string>
+    <string name="finalRegisterErrorStatus21">کاربر قبلا ثبت نام کرده است</string>
+    <string name="finalRegisterErrorStatus24"> پسورد معتبر نیست</string>
+    <string name="refreshToken">token</string>
+
+
+
+</resources>
+

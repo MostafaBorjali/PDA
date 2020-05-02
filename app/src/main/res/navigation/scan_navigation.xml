@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scan_navigation"
+    app:startDestination="@id/navigation_under_review">
+
+    <fragment
+        android:id="@+id/navigation_under_review"
+        android:name="com.okala.test.ui.fragment.underreview.UnderReviewFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_under_review" />
+
+</navigation>

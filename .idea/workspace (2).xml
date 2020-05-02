@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config>
+        <device id="pixel_2_xl" />
+      </config>
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b9862198-b25b-4878-8fec-967e752ff072" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/okala/pda/ui/fragment/login/BlankFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/okala/pda/ui/fragment/underreview/DataSCaned.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/okala/pda/utils/base/BaseAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/okala/pda/utils/extention/navigationBottomMenu.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/companies_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_blank.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/navigation/list_navigation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/networkapi/src/main/java/com/android/networkapi/data/model/getbarcodlist/Ad.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/networkapi/src/main/java/com/android/networkapi/data/model/getbarcodlist/GetQrCodeList.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/networkapi/src/main/java/com/android/networkapi/data/model/getbarcodlist/QRData.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/objectbox-models/default.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/objectbox-models/default.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/okala/pda/core/App.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/okala/pda/core/App.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/okala/pda/ui/activity/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/okala/pda/ui/activity/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/okala/pda/ui/activity/MainViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/okala/pda/ui/activity/MainViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/okala/pda/ui/baseview/BaseActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/okala/pda/utils/base/BaseActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/okala/pda/ui/baseview/BaseFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/okala/pda/utils/base/BaseFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/okala/pda/ui/baseview/BaseViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/okala/pda/utils/base/BaseViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/okala/pda/ui/fragment/login/LoginFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/okala/pda/ui/fragment/login/LoginFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/okala/pda/ui/fragment/login/LoginViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/okala/pda/ui/fragment/login/LoginViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/okala/pda/ui/fragment/pending/PendingAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/okala/pda/ui/fragment/pending/PendingAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/okala/pda/ui/fragment/pending/PendingFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/okala/pda/ui/fragment/pending/PendingFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/okala/pda/ui/fragment/pending/PendingViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/okala/pda/ui/fragment/pending/PendingViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/okala/pda/ui/fragment/underreview/UnderReviewFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/okala/pda/ui/fragment/underreview/UnderReviewFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/okala/pda/ui/fragment/underreview/UnderReviewViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/okala/pda/ui/fragment/underreview/UnderReviewViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/okala/pda/utils/customview/CustomDialog.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/okala/pda/utils/customview/CustomDialog.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/okala/pda/utils/customview/scanner/ScannerOverlay.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/okala/pda/utils/customview/scanner/ScannerOverlay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/okala/pda/utils/extention/EditTextExtention.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/okala/pda/utils/extention/StringExtention.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_okala.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/custom_dialog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/custom_dialog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_pending.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_pending.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/row_barcode_list_fragment_pending.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/row_barcode_list_fragment_pending.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/bottom_nav_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/bottom_nav_menu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/login_navigation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/navigation/login_navigation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/mobile_navigation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/navigation/scan_navigation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/buildSrcjar-classes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/buildSrcjar-classes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/build-history.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/lookups/counters.tab" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/lookups/counters.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/libs/buildSrc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/libs/buildSrc.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/pluginUnderTestMetadata/plugin-under-test-metadata.properties" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/pluginUnderTestMetadata/plugin-under-test-metadata.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/source-roots/buildSrc/source-roots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/source-roots/buildSrc/source-roots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/src/main/kotlin/LibraryDependency.kt" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/src/main/kotlin/LibraryDependency.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/networkapi/src/androidTest/java/com/android/okalaapi/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/networkapi/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/networkapi/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/networkapi/src/main/java/com/android/okalaapi/core/BaseCore.kt" beforeDir="false" afterPath="$PROJECT_DIR$/networkapi/src/main/java/com/android/networkapi/core/BaseCore.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/networkapi/src/main/java/com/android/okalaapi/core/BaseUrl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/networkapi/src/main/java/com/android/networkapi/core/BaseUrl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/networkapi/src/main/java/com/android/okalaapi/core/CoreApiProvider.kt" beforeDir="false" afterPath="$PROJECT_DIR$/networkapi/src/main/java/com/android/networkapi/core/CoreApiProvider.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/networkapi/src/main/java/com/android/okalaapi/data/model/ResponseState.kt" beforeDir="false" afterPath="$PROJECT_DIR$/networkapi/src/main/java/com/android/networkapi/data/model/ResponseState.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/networkapi/src/main/java/com/android/okalaapi/data/model/getbarcodlist/DataOfBarcodeList.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/networkapi/src/main/java/com/android/okalaapi/data/model/getbarcodlist/GetListOfBarcodeResponse.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/networkapi/src/main/java/com/android/okalaapi/data/model/login/post/PostUserNamePassword.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/networkapi/src/main/java/com/android/okalaapi/data/model/login/post/RefreshTokenPost.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/networkapi/src/main/java/com/android/okalaapi/data/model/login/response/Data.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/networkapi/src/main/java/com/android/okalaapi/data/model/login/response/UserLoginResponse.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/networkapi/src/main/java/com/android/okalaapi/data/model/login/response/refreshtoken/Data.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/networkapi/src/main/java/com/android/okalaapi/data/model/login/response/refreshtoken/RefreshTokenResponse.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/networkapi/src/main/java/com/android/okalaapi/data/model/savequantity/post/PostData.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/networkapi/src/main/java/com/android/okalaapi/data/model/savequantity/post/PostSaveQuantity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/networkapi/src/main/java/com/android/okalaapi/data/model/savequantity/post/QuantityTvp.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/networkapi/src/main/java/com/android/okalaapi/data/model/savequantity/response/Data.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/networkapi/src/main/java/com/android/okalaapi/data/model/savequantity/response/SaveQuantityResponse.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/networkapi/src/main/java/com/android/okalaapi/di/app_module.kt" beforeDir="false" afterPath="$PROJECT_DIR$/networkapi/src/main/java/com/android/networkapi/di/app_module.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/networkapi/src/main/java/com/android/okalaapi/domain/repository/ApiRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/networkapi/src/main/java/com/android/networkapi/domain/repository/ApiRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/networkapi/src/main/java/com/android/okalaapi/domain/usecase/base/ApiResponce.kt" beforeDir="false" afterPath="$PROJECT_DIR$/networkapi/src/main/java/com/android/networkapi/domain/usecase/base/ApiResponce.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/networkapi/src/main/java/com/android/okalaapi/domain/usecase/base/ServiceGenerator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/networkapi/src/main/java/com/android/networkapi/domain/usecase/base/ServiceGenerator.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/networkapi/src/main/java/com/android/okalaapi/domain/usecase/getbarcodlist/GetBarcodeList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/networkapi/src/main/java/com/android/networkapi/domain/usecase/getbarcodlist/GetBarcodeList.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/networkapi/src/main/java/com/android/okalaapi/domain/usecase/login/LoginUser.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/networkapi/src/main/java/com/android/okalaapi/domain/usecase/savequantity/SaveQuantity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/networkapi/src/main/java/com/android/okalaapi/utils/MyShared.kt" beforeDir="false" afterPath="$PROJECT_DIR$/networkapi/src/main/java/com/android/networkapi/utils/MyShared.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/networkapi/src/main/java/com/android/okalaapi/utils/Utils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/networkapi/src/main/java/com/android/networkapi/utils/Utils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/networkapi/src/test/java/com/android/okalaapi/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/networkapi/src/test/java/com/android/okalaapi/Test1.kt" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="a523c6ab" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="PDA" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="navigationResourceFile" />
+        <option value="layoutResourceFile_vertical" />
+        <option value="resourceFile" />
+        <option value="valueResourceFile" />
+        <option value="Kotlin File" />
+        <option value="Kotlin Class" />
+        <option value="Kotlin Object" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ScannerOverlay</find>
+      <find>SuccessNot3</find>
+      <find>search</find>
+      <find>barcodeBox</find>
+      <find>btnRestart.setOnC</find>
+      <find>پایان</find>
+      <find>titleButtonOkDialog</find>
+      <find>dialogButtonOk</find>
+      <find>btnRestart</find>
+      <find>sn</find>
+      <find>dialogButtonOk?.set</find>
+      <find>نمایش لیست</find>
+      <find>listKamelBarcodha</find>
+      <find>switchBarcode.set</find>
+    </findStrings>
+    <dirStrings>
+      <dir>D:\repos\Pda\app</dir>
+    </dirStrings>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="D:\repos\Pda\Pda.jks" />
+    <option name="KEY_ALIAS" value="PDA" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+    <option name="BUILD_TARGET_KEY" value="apk" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1YINlwXHAADwgvGJDh5ehK8XzP9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="AnalyzeApkAction.lastApkPath" value="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" />
+    <property name="ApkExportedModule" value="app" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Nexus_5X_API_26" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-02-25T07:45:54.130Z" />
+    <property name="ExportApk.ApkPath" value="C:\Users\borjali.mostafa\Desktop" />
+    <property name="ExportApk.BuildVariants" value="release" />
+    <property name="ExportApk.SignV1" value="true" />
+    <property name="ExportApk.SignV2" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../WarehouseHandling" />
+    <property name="not.eligible.for.single.variant.sync" value="true" />
+    <property name="project.structure.last.edited" value="SDK Location" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\work\New folder\Pda\app\src\main\java\com\okala\pda\ui\fragment\login" />
+      <recent name="C:\Users\borjali.mostafa\AndroidStudioProjects\PDA\networkapi\src\main\java\com\android\okalaapi\core" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.okala.pda.ui.baseview" />
+      <recent name="com.okala.pda.utils" />
+      <recent name="com.okala.pda.core" />
+      <recent name="com.okala.pda.module.extention" />
+      <recent name="com.okala.pda" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.okala.pda.utils.base" />
+      <recent name="com.android.okalaapi.data.model.getbarcodlist" />
+      <recent name="com.okala.pda.utils" />
+      <recent name="com.okala.pda.utils.customview" />
+      <recent name="com.android.okalaapi.domain.usecase.base" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\work\New folder\Pda\app\src\main\res\drawable" />
+      <recent name="C:\work\New folder\Pda\app\src\main\res\navigation" />
+      <recent name="C:\work\New folder\Pda\app\src\main\java\com\okala\pda\utils\extention" />
+      <recent name="D:\repos\Pda" />
+      <recent name="D:\repos\Pda\buildSrc\src\main\kotlin" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b9862198-b25b-4878-8fec-967e752ff072" name="Default Changelist" comment="" />
+      <created>1574929061991</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574929061991</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/okala/pda/ui/fragment/login/BlankFragment.kt</url>
+          <line>25</line>
+          <properties class="com.okala.pda.ui.fragment.login.BlankFragment" method="onCreate">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="app">
+        <watch expression="BarcodeModel_.productId, findBarcode[0].productId" />
+        <watch expression="findBarcode[0].productId" />
+        <watch expression="BarcodeModel_.productId" />
+        <watch expression="barcodeBox.query().equal(BarcodeModel_.productId, findBarcode[0].productId).build().find()" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

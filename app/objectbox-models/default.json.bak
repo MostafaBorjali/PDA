@@ -1,0 +1,65 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:1646625926876919067",
+      "lastPropertyId": "8:3595668255951031186",
+      "name": "BarcodeModel",
+      "properties": [
+        {
+          "id": "1:450888477643363380",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:303504993878826533",
+          "name": "barcodeId",
+          "type": 9
+        },
+        {
+          "id": "3:2639967177286680633",
+          "name": "barcode",
+          "type": 9
+        },
+        {
+          "id": "5:577806813810683512",
+          "name": "quntity",
+          "type": 9
+        },
+        {
+          "id": "6:883500245585333012",
+          "name": "wholeQuntitys",
+          "type": 9
+        },
+        {
+          "id": "7:3224830604615614667",
+          "name": "productId",
+          "type": 9
+        },
+        {
+          "id": "8:3595668255951031186",
+          "name": "mode",
+          "type": 5,
+          "flags": 4
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "1:1646625926876919067",
+  "lastIndexId": "0:0",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [
+    2388759162976366340
+  ],
+  "retiredRelationUids": [],
+  "version": 1
+}
